@@ -55,7 +55,9 @@ Write an empty class Rectangle that defines a rectangle:
 
 You must use the class notation for defining your class
 guillaume@ubuntu:~/0x13$ cat 0-main.js
+
 # !/usr/bin/node
+
 const Rectangle = require('./0-rectangle');
 
 const r1 = new Rectangle();
@@ -84,7 +86,9 @@ The constructor must take 2 arguments w and h
 Initialize the instance attribute width with the value of w
 Initialize the instance attribute height with the value of h
 guillaume@ubuntu:~/0x13$ cat 1-main.js
+
 # !/usr/bin/node
+
 const Rectangle = require('./1-rectangle');
 
 const r1 = new Rectangle(2, 3);
@@ -132,7 +136,9 @@ Initialize the instance attribute width with the value of w
 Initialize the instance attribute height with the value of h
 If w or h is equal to 0 or not a positive integer, create an empty object
 guillaume@ubuntu:~/0x13$ cat 2-main.js
+
 # !/usr/bin/node
+
 const Rectangle = require('./2-rectangle');
 
 const r1 = new Rectangle(2, 3);
@@ -189,7 +195,9 @@ Initialize the instance attribute height with the value of h
 If w or h is equal to 0 or not a positive integer, create an empty object
 Create an instance method called print() that prints the rectangle using the character X
 guillaume@ubuntu:~/0x13$ cat 3-main.js
+
 # !/usr/bin/node
+
 const Rectangle = require('./3-rectangle');
 
 const r1 = new Rectangle(2, 3);
@@ -230,7 +238,9 @@ Create an instance method called print() that prints the rectangle using the cha
 Create an instance method called rotate() that exchanges the width and the height of the rectangle
 Create an instance method called double() that multiples the width and the height of the rectangle by 2
 guillaume@ubuntu:~/0x13$ cat 4-main.js
+
 # !/usr/bin/node
+
 const Rectangle = require('./4-rectangle');
 
 const r1 = new Rectangle(2, 3);
@@ -280,7 +290,9 @@ You must use the class notation for defining your class and extends
 The constructor must take 1 argument: size
 The constructor of Rectangle must be called (by using super())
 guillaume@ubuntu:~/0x13$ cat 5-main.js
+
 # !/usr/bin/node
+
 const Square = require('./5-square');
 
 const s1 = new Square(4);
@@ -319,7 +331,9 @@ You must use the class notation for defining your class and extends
 Create an instance method called charPrint(c) that prints the rectangle using the character c
 If c is undefined, use the character X
 guillaume@ubuntu:~/0x13$ cat 6-main.js
+
 # !/usr/bin/node
+
 const Square = require('./6-square');
 
 const s1 = new Square(4);
@@ -352,7 +366,9 @@ Write a function that returns the number of occurrences in a list:
 
 Prototype: exports.nbOccurences = function (list, searchElement)
 guillaume@ubuntu:~/0x13$ cat 7-main.js
+
 # !/usr/bin/node
+
 const nbOccurences = require('./7-occurrences').nbOccurences;
 
 console.log(nbOccurences([1, 2, 3, 4, 5, 6], 3));
@@ -380,7 +396,9 @@ Write a function that returns the reversed version of a list:
 Prototype: exports.esrever = function (list)
 You are not allow to use the built-in method reverse
 guillaume@ubuntu:~/0x13$ cat 8-main.js
+
 # !/usr/bin/node
+
 const esrever = require('./8-esrever').esrever;
 
 console.log(esrever([1, 2, 3, 4, 5]));
@@ -406,7 +424,9 @@ Write a function that prints the number of arguments already printed and the new
 Prototype: exports.logMe = function (item)
 Output format: <number arguments already printed>: <current argument value>
 guillaume@ubuntu:~/0x13$ cat 9-main.js
+
 # !/usr/bin/node
+
 const logMe = require('./9-logme').logMe;
 
 logMe("Hello");
@@ -435,7 +455,9 @@ Prototype: exports.converter = function (base)
 You are not allowed to import any file
 You are not allowed to declare any new variable (var, let, etc..)
 guillaume@ubuntu:~/0x13$ cat 10-main.js
+
 # !/usr/bin/node
+
 const converter = require('./10-converter').converter;
 
 let myConverter = converter(10);
@@ -472,7 +494,9 @@ You must use a map. Tips
 A new list must be created with each value equal to the value of the initial list, multipled by the index in the list
 Print both the initial list and the new list
 guillaume@ubuntu:~/0x13$ cat 100-data.js
+
 # !/usr/bin/node
+
 exports.list = [1, 2, 3, 4, 5];
 guillaume@ubuntu:~/0x13$ ./100-map.js
 [ 1, 2, 3, 4, 5 ]
@@ -492,7 +516,9 @@ A key is a number of occurrences
 A value is the list of user ids
 Print the new dictionary at the end
 guillaume@ubuntu:~/0x13$ cat 101-data.js
+
 # !/usr/bin/node
+
 exports.dict = {
   89: 1,
   90: 2,
