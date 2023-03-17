@@ -1,4 +1,4 @@
-0x13. JavaScript - Objects, Scopes and Closures
+**0x13. JavaScript - Objects, Scopes and Closures**
 By Karivone
 Weight: 1
 Resources
@@ -183,7 +183,7 @@ Directory: 0x13-javascript_objects_scopes_closures
 File: 2-rectangle.js
  Done? Help Check your code Get a sandbox
 
-3. Rectangle #3
+3: Rectangle #3
 mandatory
 
 Write a class Rectangle that defines a rectangle:
@@ -224,7 +224,7 @@ Directory: 0x13-javascript_objects_scopes_closures
 File: 3-rectangle.js
  Done? Help Check your code Get a sandbox
 
-4. Rectangle #4
+4: Rectangle #4
 mandatory
 
 Write a class Rectangle that defines a rectangle:
@@ -281,7 +281,7 @@ Directory: 0x13-javascript_objects_scopes_closures
 File: 4-rectangle.js
  Done? Help Check your code Get a sandbox
 
-5. Square #0
+5: Square #0
 mandatory
 
 Write a class Square that defines a square and inherits from Rectangle of 4-rectangle.js:
@@ -322,7 +322,7 @@ Directory: 0x13-javascript_objects_scopes_closures
 File: 5-square.js
  Done? Help Check your code Get a sandbox
 
-6. Square #1
+6: Square #1
 mandatory
 
 Write a class Square that defines a square and inherits from Square of 5-square.js:
@@ -359,7 +359,7 @@ Directory: 0x13-javascript_objects_scopes_closures
 File: 6-square.js
  Done? Help Check your code Get a sandbox
 
-7. Occurrences
+7: Occurrences
 mandatory
 
 Write a function that returns the number of occurrences in a list:
@@ -388,7 +388,7 @@ Directory: 0x13-javascript_objects_scopes_closures
 File: 7-occurrences.js
  Done? Help Check your code
 
-8. Esrever
+8: Esrever
 mandatory
 
 Write a function that returns the reversed version of a list:
@@ -416,7 +416,7 @@ Directory: 0x13-javascript_objects_scopes_closures
 File: 8-esrever.js
  Done? Help Check your code Get a sandbox
 
-9. Log me
+9: Log me
 mandatory
 
 Write a function that prints the number of arguments already printed and the new argument value. (see example below)
@@ -446,7 +446,7 @@ Directory: 0x13-javascript_objects_scopes_closures
 File: 9-logme.js
  Done? Help Check your code
 
-10. Number conversion
+10: Number conversion
 mandatory
 
 Write a function that converts a number from base 10 to another base passed as argument:
