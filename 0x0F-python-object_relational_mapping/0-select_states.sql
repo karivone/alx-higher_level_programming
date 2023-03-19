@@ -1,28 +1,14 @@
 -- Create states table in hbtn_0e_0_usa with some data
-CREATE DATABASE IF NOT EXISTS HBTN_0E_0_USA;
-
-USE HBTN_0E_0_USA;
-
-CREATE TABLE IF NOT EXISTS STATES (
-    ID INT NOT NULL AUTO_INCREMENT,
-    NAME VARCHAR(256) NOT NULL,
-    PRIMARY KEY (ID)
+CREATE DATABASE IF NOT EXISTS hbtn_0e_0_usa;
+USE hbtn_0e_0_usa;
+CREATE TABLE IF NOT EXISTS states (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(256) NOT NULL,
+    PRIMARY KEY (id)
 );
-
-INSERT INTO STATES (
-    NAME
-) VALUES (
-    "California"
-),
-(
-    "Arizona"
-),
-(
-    "Texas"
-),
-(
-    "New York"
-),
-(
-    "Nevada"
-);
+INSERT INTO states (name)
+VALUES ("California"),
+    ("Arizona"),
+    ("Texas"),
+    ("New York"),
+    ("Nevada");
