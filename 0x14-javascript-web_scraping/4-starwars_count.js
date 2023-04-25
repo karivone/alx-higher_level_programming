@@ -7,24 +7,24 @@
  */
 
 const request = require('request');
-const characterId = '18'; // set the character ID for "Wedge Antilles"
-const apiUrl = process.argv[2]; // get the API URL from the first command line argument
+const url = process.argv[2];
 
-request(apiUrl, (err, response, body) => {
-  if (err) {
-    console.error(err); // print the error object if an error occurred during the request
-    return;
+request(url, function (error, response, body) {
+  if (error) {
+    console.log(error);
+  } else {
+    let count = 0;
+    const films = JSON.parse(body).results;
+    for (let i = 0; i < films.length; i++) {
+      let j = 0;
+      const character = films[i].characters;
+      while (j < character.length) {
+        if (character[j].includes('18')) {
+          count++;
+        }
+        j++;
+      }
+    }
+    console.log(count);
   }
-
-  if (response.statusCode !== 200) {
-    console.error(`Error: ${response.statusCode} - ${response.statusMessage}`);
-    return;
-  }
-
-  const films = JSON.parse(body).results;
-  const numMovies = films.filter((film) => {
-    return film.characters.includes(`https://swapi-api.alx-tools.com/api/people/${characterId}/`);
-  }).length;
-
-  console.log(`Number of movies where "Wedge Antilles" appears: ${numMovies}`);
 });
