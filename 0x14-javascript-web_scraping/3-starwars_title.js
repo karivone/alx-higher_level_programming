@@ -22,4 +22,3 @@ request(`https://swapi-api.alx-tools.com/api/films/${episodeNumber}`, (err, resp
   const movie = JSON.parse(body);
   console.log(`Title of Episode ${episodeNumber}: ${movie.title}`);
 });
-

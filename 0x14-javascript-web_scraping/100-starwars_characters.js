@@ -30,4 +30,3 @@ function getCharacter (characters, index) { // Our function accepts an array of 
     }
   });
 }
-

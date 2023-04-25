@@ -17,4 +17,3 @@ fs.readFile(filePath, 'utf-8', (err, data) => {
   }
   console.log(data); // print the content of the file
 });
-

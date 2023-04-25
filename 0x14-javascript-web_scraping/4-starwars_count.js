@@ -28,4 +28,3 @@ request(apiUrl, (err, response, body) => {
 
   console.log(`Number of movies where "Wedge Antilles" appears: ${numMovies}`);
 });
-
