@@ -14,8 +14,6 @@ const content = process.argv[3]; // get the content to write from the second com
 
 fs.writeFile(filePath, content, 'utf-8', (err) => {
   if (err) {
-    console.error(err); // print the error object if an error occurred during writing
-    return;
+    console.log(err); // print the error object if an error occurred during writing
   }
-  console.log(`Content has been written to ${filePath}.`); // print a success message
 });

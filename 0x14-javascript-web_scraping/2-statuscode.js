@@ -12,7 +12,7 @@ const url = process.argv[2]; // get the URL to request from the first command li
 request.get(url, (err, response) => {
   if (err) {
     console.error(err); // print the error object if an error occurred during the request
-    return;
+  } else {
+    console.log(`code: ${response.statusCode}`); // print the status code
   }
-  console.log(`code: ${response.statusCode}`); // print the status code
 });
